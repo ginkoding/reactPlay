@@ -26,6 +26,11 @@ const changeButton = () => {
         <NavBarCP />
             <div className="content">
                 <h1>Use Effect</h1>
+
+                <p>
+                    Practice using alerts and changing the state of the page. 
+                </p>
+
 <button onClick={changeButton}> Change State </button>
 
             </div>

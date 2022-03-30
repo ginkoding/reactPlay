@@ -1,16 +1,19 @@
 /* ========== HomePage Nav ========== */
+
 .content h1 {
   color: white;
   font-size: 5rem;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
 }
 
 .content a {
   color: white;
   font-size: 1.5rem;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
 }
 
 .content a:hover {
-  color: tomato;
+  color: PaleVioletRed;
 }
 
 .homePageNav ul {
@@ -18,12 +21,16 @@
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 5vh;
+  min-width: 650px;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
 }
 
 .homePageNav ul li a {
   text-decoration: none;
   font-size: 5rem;
   color: white;
+  min-width: 1250px;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
 }
 
 .homePageNav ul li {
@@ -45,25 +52,25 @@
 }
 
 .homePageNav ul li:nth-child(1) {
-  background: #bdc3c7;
-  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
-  background: linear-gradient(to right, #2c3e50, #bdc3c7);
+  background: white;
+  background: -webkit-linear-gradient(to right, Pink, #bdc3c7);
+  background: linear-gradient(to right, pink, #bdc3c7);
 }
 
 .homePageNav ul li:nth-child(2) {
   background: #636363;
-  background: -webkit-linear-gradient(to right, #a2ab58, #636363);
-  background: linear-gradient(to right, #a2ab58, #636363);
+  background: -webkit-linear-gradient(to right, PaleGreen, Thistle);
+  background: linear-gradient(to right, PaleGreen, Thistle);
 }
 
 .homePageNav ul li:nth-child(3) {
-  background: #f12711;
-  background: -webkit-linear-gradient(to right, #f5af19, #f12711);
-  background: linear-gradient(to right, #f5af19, #f12711);
+  background: pink;
+  background: -webkit-linear-gradient(to right, Plum, PowderBlue);
+  background: linear-gradient(to right, Plum, PowderBlue);
 }
 
 .homePageNav ul li:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -78,7 +85,7 @@
 .sidenav {
   margin: 0em 2em;
   flex-basis: 15%;
-  height: 90vh;
+  min-height: 90vh;
   padding: 2em;
   border-radius: 15px;
 }
@@ -99,6 +106,7 @@
 
 .sidenav a:hover {
   color: pink;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
 }
 
 .sidenav .sidenav ul li {
@@ -109,34 +117,41 @@
   flex-basis: 85%;
   text-align: center;
   min-height: 90vh;
+  max-width: 70vw;
+  min-width: 750px;
+  margin: auto;
   background: #373b44;
-  background: -webkit-linear-gradient(to right, #4286f4, #373b44);
-  background: linear-gradient(to right, #4286f4, #373b44);
-
+  background: -webkit-linear-gradient(to right, MintCream, LightSkyBlue);
+  background: linear-gradient(to right, MintCream, LightSkyBlue);
   padding: 2em;
   border-radius: 15px;
 }
 
+body {
+  background-image: url("./cherry.png");
+  font-family: Arial, Helvetica, sans-serif;
+  color: PaleVioletRed;
+}
+
 .activeLink {
-  font-size: 2rem;
-  color: tomato !important;
+  color: PaleVioletRed !important;
 }
 
 .CMNav {
   background: #bdc3c7;
-  background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);
-  background: linear-gradient(to bottom, #2c3e50, #bdc3c7);
+  background: -webkit-linear-gradient(to bottom, Pink, #bdc3c7);
+  background: linear-gradient(to bottom, Pink, #bdc3c7);
 }
 
 .CPNav {
   background: #636363;
-  background: -webkit-linear-gradient(to bottom, #a2ab58, #636363);
-  background: linear-gradient(to bottom, #a2ab58, #636363);
+  background: -webkit-linear-gradient(to bottom, PaleGreen, Thistle);
+  background: linear-gradient(to bottom, PaleGreen, Thistle);
 }
 
 .HWNav {
-  background: #f12711;
-  background: -webkit-linear-gradient(to bottom, #f5af19, #f12711);
-  background: linear-gradient(to bottom, #f5af19, #f12711);
+  background: Pink;
+  background: -webkit-linear-gradient(to bottom, Plum PowderBlue);
+  background: linear-gradient(to bottom, Plum, PowderBlue);
 }
 /* ================================== */

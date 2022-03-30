@@ -4,7 +4,7 @@ import ChildComp from './ChildComp';
 import NavBarCP from '../NavBarCP';
 
 function ParentComp() {
-    let heading = 'From the parent'
+    let heading = 'Text sent from the parent. Below is a mathmathical function sent from the parent too!'
 
     const func1 = () => {
         return 4 * 4;
@@ -15,6 +15,10 @@ function ParentComp() {
         <NavBarCP />
         <div className="content">
         <h1>Parent</h1>
+        <p>
+            Practice in passing information in one direction - parent to child.
+        </p>
+        <br />
         <ChildComp varHeading ={heading} func1 = {func1}/>
         </div>
         ;

@@ -1,0 +1,36 @@
+table {
+  background-color: aliceblue;
+  width: 30vw;
+  margin: auto;
+
+  font-size: 2rem;
+  text-align: left;
+
+  border-radius: 5px;
+}
+
+table tr td {
+  padding: 10px 5px;
+  margin: 5px;
+}
+
+#taskDelete {
+  font: 2rem;
+  color: firebrick;
+  cursor: pointer;
+}
+
+#taskSubmit {
+  margin-left: 20px;
+}
+
+#taskInput {
+  margin-bottom: 20px;
+}
+
+#taskInput label {
+  color: rebeccapurple;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  display: block;
+}

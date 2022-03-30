@@ -5,10 +5,10 @@ import NavBarCP from '../NavBarCP';
 
 function Project33_State() {
 
-    const [colourState, setColourState] = useState('tomato');
+    const [colourState, setColourState] = useState('deeppink');
 
     const updateColour = () => {
-        setColourState(() => (colourState === 'tomato' ? 'green' : 'tomato'))
+        setColourState(() => (colourState === 'deeppink' ? 'purple' : 'deeppink'))
     }
 
 
@@ -17,13 +17,19 @@ function Project33_State() {
         <NavBarCP />
             <div className="content">
                 <h1>Project 33</h1>
+                <p>
+                    Click the rectangle to see onClick updates. 
+                </p>
         <div style={{
             backgroundColor: colourState, 
             height: '50vh', 
             width: '50vw',
+            margin: 'auto',
+            paddingTop: '70px',
+            cursor: 'pointer',
         }}
         onClick={updateColour}
-        ></div>
+        >Click in here!</div>
     </div>
     </div>
     )

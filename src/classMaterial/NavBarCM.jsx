@@ -13,7 +13,7 @@ function NavBarCM() {
         </li>
         <li>
         <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classMaterial/tempCM">
-        Temp Comp
+        Links to relevant material
         </NavLink>
         </li>
         </ul>

@@ -11,6 +11,9 @@ function myForm() {
       <NavBarCP />
         <div className="content">
           <h1>Form</h1>
+          <p>
+            Creating (inactive) forms using Prime React features.
+          </p>
           <InputText placeholder='First Name'/>
           <br />
           <br />

@@ -7,6 +7,9 @@ function Temp_CP() {
   <NavBarCP />
   <div className="content">
   <h1>Class Projects</h1>
+  <p>
+    A collection of projects given out to complete during Front End Developer training with Purple Beard.
+  </p>
   </div>
   ;
   </div>

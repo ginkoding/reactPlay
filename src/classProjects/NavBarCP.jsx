@@ -13,12 +13,7 @@ function NavBarCP() {
         </li>
         <li>
         <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/Project31/Project31_Form">
-        Project 31 Practice
-        </NavLink>
-        </li>
-        <li>
-        <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/project31/MyForm">
-        Project 31 - Form
+        Project 31 Prime React
         </NavLink>
         </li>
         <li>
@@ -41,6 +36,21 @@ function NavBarCP() {
         Project 34 - Use Effect with an API
         </NavLink>
         </li>
+        <li>
+        <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/Project35/Project35_FormAndEvents">
+        Project 35 - Events
+        </NavLink>
+        </li>
+        <li>
+        <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/Project35/Project35_JustForms">
+        Project 35 - Forms
+        </NavLink>
+        </li>
+        <li>
+        <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/Project36/Project36_ToDoApp">
+        Project 36 - To-Do App
+        </NavLink>
+        </li> 
         </ul>
         </nav>
         );
