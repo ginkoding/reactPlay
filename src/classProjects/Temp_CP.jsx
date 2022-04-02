@@ -9,6 +9,9 @@ function Temp_CP() {
   <h1>Class Projects</h1>
   <p>
     A collection of projects given out to complete during Front End Developer training with Purple Beard.
+    <br />
+    <br />
+    Click on the link in the Nav Bar to discover each section. 
   </p>
   </div>
   ;

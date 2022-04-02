@@ -20,6 +20,7 @@ import Project34_useEffectAPI from './classProjects/Project34/Project34_useEffec
 import Project35_FormAndEvents from './classProjects/Project35/Project35_FormAndEvents';
 import Project35_JustForms from './classProjects/Project35/Project35_JustForms';
 import Project36_ToDoApp from './classProjects/Project36/Project36_ToDoApp';
+import Project37_Wordle from './classProjects/Project37/Project37_Wordle';
 
 
 
@@ -41,6 +42,7 @@ ReactDOM.render(
       <Route path ="/classProjects/Project35/Project35_FormAndEvents" element={<Project35_FormAndEvents />} />
       <Route path ="/classProjects/Project35/Project35_JustForms" element={<Project35_JustForms />} /> 
       <Route path ="/classProjects/Project36/Project36_ToDoApp" element={<Project36_ToDoApp />} /> 
+      <Route path ="/classProjects/Project37/Project37_Wordle" element={<Project37_Wordle />} /> 
       <Route path ="/homeWork/tempHW" element={<Temp_HW />} />
 
     </Routes>

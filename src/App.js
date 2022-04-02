@@ -16,7 +16,7 @@ function App() {
     className={({ isActive }) => (isActive ? 'activeLink' : '')}
     to="/classMaterial/tempCM"
   >
-    Class Material
+    Introduction
   </NavLink>
 </li>
 <li>

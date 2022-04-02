@@ -1,0 +1,41 @@
+label {
+  font-size: 2em;
+}
+
+.guessRows {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  max-width: 800px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.letter {
+  color: snow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: lightcoral;
+  border-radius: 5px;
+  font-size: 3rem;
+}
+
+.existsLetter {
+  background-color: LightSalmon;
+}
+
+.trueLetter {
+  background-color: SpringGreen;
+}
+
+.falseLetter {
+  background-color: IndianRed;
+}
+
+#wordleGuessSubmit {
+  margin: 0 20px;
+}

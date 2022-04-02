@@ -7,8 +7,16 @@ function Temp_CM() {
   <div className="app-container">
   <NavBarCM />
   <div className="content">
-  <h1>Well Done!</h1>
-  <h3>We created our first React Componant!</h3>
+  <h1>React Introduction</h1>
+  <h3>'Well Done! <br />
+  We created our first React Componant!'</h3>
+
+  <p>A small site used to practice a demonstrate skills learned at Purple Beard under the
+    Front End Development course. 
+    <br />
+    <br />
+    The class projects pages feature small tasks which increased in difficulty throughout the course. Some built as homework outside of class lessons and some built in code-along sessions with a tutor. 
+    </p>
 
   <a href="https://www.reactrouter.com/" target="_blank">
         React Router V6 Docs

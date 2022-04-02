@@ -46,7 +46,8 @@ const [button, setButton] = useState(true);
             <div className="content">
 
                 <h1>Use Effect</h1>
-                <input type="text" id="character" value="" placeholder="What Disney character do you want to know about?" />
+                <p><b>CURRENTLY INACTIVE</b></p>
+                {/* <input type="text" id="character" value="" placeholder="What Disney character do you want to know about?" /> */}
                 {/* <button onClick={func1}>Click Me</button> */}
                 <p id="response"></p>
 

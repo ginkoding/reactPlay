@@ -13,7 +13,7 @@ function NavBarCP() {
         </li>
         <li>
         <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/Project31/Project31_Form">
-        Project 31 Prime React
+        Project 31 - Prime React
         </NavLink>
         </li>
         <li>
@@ -28,27 +28,32 @@ function NavBarCP() {
         </li>
         <li>
         <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/Project34/Project34_useEffect">
-        Project 34 - Use Effect
+        Project 34A - Use Effect
         </NavLink>
         </li>
         <li>
         <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/Project34/Project34_useEffectAPI">
-        Project 34 - Use Effect with an API
+        Project 34B - Use Effect with an API
         </NavLink>
         </li>
         <li>
         <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/Project35/Project35_FormAndEvents">
-        Project 35 - Events
+        Project 35A - Events
         </NavLink>
         </li>
         <li>
         <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/Project35/Project35_JustForms">
-        Project 35 - Forms
+        Project 35B - Forms
         </NavLink>
         </li>
         <li>
         <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/Project36/Project36_ToDoApp">
         Project 36 - To-Do App
+        </NavLink>
+        </li> 
+        <li>
+        <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/Project37/Project37_Wordle">
+        Project 37 - Wordle
         </NavLink>
         </li> 
         </ul>

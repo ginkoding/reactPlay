@@ -53,8 +53,8 @@
 
 .homePageNav ul li:nth-child(1) {
   background: white;
-  background: -webkit-linear-gradient(to right, Pink, #bdc3c7);
-  background: linear-gradient(to right, pink, #bdc3c7);
+  background: -webkit-linear-gradient(to right, PaleTurquoise, Bisque);
+  background: linear-gradient(to right, PaleTurquoise, Bisque);
 }
 
 .homePageNav ul li:nth-child(2) {
@@ -83,15 +83,19 @@
 }
 
 .sidenav {
-  margin: 0em 2em;
+  margin: 0em 1em;
+  margin-top: 5vh;
   flex-basis: 15%;
   min-height: 90vh;
   padding: 2em;
   border-radius: 15px;
+  text-align: center;
 }
 
 .sidenav ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .sidenav li {
@@ -119,10 +123,12 @@
   min-height: 90vh;
   max-width: 70vw;
   min-width: 750px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
   background: #373b44;
-  background: -webkit-linear-gradient(to right, MintCream, LightSkyBlue);
-  background: linear-gradient(to right, MintCream, LightSkyBlue);
+  background: -webkit-linear-gradient(to right, MistyRose, Pink);
+  background: linear-gradient(to right, MistyRose, Pink);
   padding: 2em;
   border-radius: 15px;
 }
@@ -139,8 +145,8 @@ body {
 
 .CMNav {
   background: #bdc3c7;
-  background: -webkit-linear-gradient(to bottom, Pink, #bdc3c7);
-  background: linear-gradient(to bottom, Pink, #bdc3c7);
+  background: -webkit-linear-gradient(to bottom, PaleTurquoise, Bisque);
+  background: linear-gradient(to bottom, PaleTurquoise, Bisque);
 }
 
 .CPNav {

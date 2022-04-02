@@ -41,6 +41,9 @@ function Project35_JustForms() {
         <p>
           More in-depth form practice. 
         </p>
+
+        <br />
+
           <form onSubmit={createName}>
             <label htmlFor="name">Name</label> <br />
             <input
@@ -52,6 +55,7 @@ function Project35_JustForms() {
       />
 
       <br />
+      <br />
 
             <label htmlFor="email">Email Address</label> <br />
             <input
@@ -61,6 +65,9 @@ function Project35_JustForms() {
             id="email"
             onChange={handleChange}
           />
+
+<br />
+<br />
 
           <button type='submit' disabled={btnState}>
             Submit
