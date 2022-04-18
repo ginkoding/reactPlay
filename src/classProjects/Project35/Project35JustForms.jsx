@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import NavBarCP from '../NavBarCP';
 
 
-function Project35_JustForms() {
+function Project35JustForms() {
   const [state, setState] = useState({ name: '', email: '' });
   const [btnState, setBtnState] = useState(true);
 
@@ -19,7 +19,7 @@ function Project35_JustForms() {
   setState((s) => ({...s, ...updatedValue}));
 
   setBtnState(
-    (b) => (b = state.name != '' && state.email != '' ? false : true)
+    (b) => (b = state.name !== '' && state.email !== '' ? false : true)
   );
   }
 
@@ -82,4 +82,4 @@ function Project35_JustForms() {
   }
 
 
-export default Project35_JustForms
+export default Project35JustForms

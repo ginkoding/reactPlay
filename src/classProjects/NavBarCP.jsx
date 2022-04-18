@@ -7,12 +7,12 @@ function NavBarCP() {
         <nav className="sidenav CPNav">
         <ul>
         <li>
-        <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/">
+        <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/App">
         Home
         </NavLink>
         </li>
         <li>
-        <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/Project31/Project31_Form">
+        <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/Project31/Project31Form">
         Project 31 - Prime React
         </NavLink>
         </li>
@@ -22,37 +22,32 @@ function NavBarCP() {
         </NavLink>
         </li>
         <li>
-        <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/Project33/Project33_State">
+        <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/Project33/Project33State">
         Project 33 - State
         </NavLink>
         </li>
         <li>
-        <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/Project34/Project34_useEffect">
+        <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/Project34/Project34UseEffect">
         Project 34A - Use Effect
         </NavLink>
         </li>
         <li>
-        <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/Project34/Project34_useEffectAPI">
-        Project 34B - Use Effect with an API
-        </NavLink>
-        </li>
-        <li>
-        <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/Project35/Project35_FormAndEvents">
+        <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/Project35/Project35FormAndEvents">
         Project 35A - Events
         </NavLink>
         </li>
         <li>
-        <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/Project35/Project35_JustForms">
+        <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/Project35/Project35JustForms">
         Project 35B - Forms
         </NavLink>
         </li>
         <li>
-        <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/Project36/Project36_ToDoApp">
+        <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/Project36/Project36ToDoApp">
         Project 36 - To-Do App
         </NavLink>
         </li> 
         <li>
-        <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/Project37/Project37_Wordle">
+        <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/classProjects/Project37/Project37Wordle">
         Project 37 - Wordle
         </NavLink>
         </li> 

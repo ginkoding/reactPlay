@@ -7,7 +7,7 @@ function NavBarCM() {
         <nav className="sidenav CMNav">
         <ul>
         <li>
-        <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/">
+        <NavLink className={({ isActive }) => (isActive ? 'activeLink' : '')} to="/App">
         Home
         </NavLink>
         </li>

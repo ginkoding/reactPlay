@@ -2,7 +2,7 @@ import React from 'react'
 
 import NavBarCM from './NavBarCM'
 
-function Temp_CM() {
+function TempCM() {
   return (
   <div className="app-container">
   <NavBarCM />
@@ -18,20 +18,19 @@ function Temp_CM() {
     The class projects pages feature small tasks which increased in difficulty throughout the course. Some built as homework outside of class lessons and some built in code-along sessions with a tutor. 
     </p>
 
-  <a href="https://www.reactrouter.com/" target="_blank">
+  <a href="https://www.reactrouter.com/">
         React Router V6 Docs
       </a>
       <br />
       <br />
       <a
         href="https://ultimatecourses.com/blog/active-navlink-inline-styles-with-react-router"
-        target="_blank"
       >
         Docs on NavLinks
       </a>
       <br />
       <br />
-      <a href="https://youtu.be/k2Zk5cbiZhg" target="_blank">
+      <a href="https://youtu.be/k2Zk5cbiZhg">
         YouTube Video of Router V6
       </a>
 
@@ -43,4 +42,4 @@ function Temp_CM() {
   
 }
 
-export default Temp_CM
+export default TempCM

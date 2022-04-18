@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import NavBarCP from '../NavBarCP';
 
-import Project37_GameScreen from './Project37_GameScreen';
-import Project37_LoadScreen from './Project37_LoadScreen';
+import Project37GameScreen from './Project37GameScreen';
+import Project37LoadScreen from './Project37LoadScreen';
 import './Project37_style.css'
 
 
-function Project37_Wordle() {
+function Project37Wordle() {
     //Toggle between loadscreen and gamescreen
     const [loadScreen, setLoadScreen] = useState(true)
 
@@ -25,8 +25,8 @@ function Project37_Wordle() {
     <div className="content" >
         <h1>Wordle</h1>
         {loadScreen ? 
-        <Project37_LoadScreen updateWordle={updateWordle}/> : 
-        <Project37_GameScreen wordle={wordle} updateWordle={updateWordle} />}
+        <Project37LoadScreen updateWordle={updateWordle}/> : 
+        <Project37GameScreen wordle={wordle} updateWordle={updateWordle} />}
             
 
 
@@ -35,4 +35,4 @@ function Project37_Wordle() {
   )
 }
 
-export default Project37_Wordle
+export default Project37Wordle

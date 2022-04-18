@@ -7,7 +7,7 @@ import { Button } from 'primereact/button';
 
 
 
-function Project36_ToDoApp() {
+function Project36ToDoApp() {
     const[tasks, setTasks] = useState(['Task 1', 'Task 2']);
     const[task, setTask] = useState('');
 
@@ -23,7 +23,7 @@ function Project36_ToDoApp() {
 
     const deleteTask = (index) => {
         let tempArrayItem = tasks[index];
-        setTasks(tasks.filter((t) => t != tempArrayItem))
+        setTasks(tasks.filter((t) => t !== tempArrayItem))
     };
 
   return (
@@ -69,4 +69,4 @@ function Project36_ToDoApp() {
     );
 }
 
-export default Project36_ToDoApp
+export default Project36ToDoApp

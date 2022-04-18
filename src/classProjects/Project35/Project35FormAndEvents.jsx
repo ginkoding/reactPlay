@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import NavBarCP from '../NavBarCP';
 
-function Project35_FormAndEvents() {
+function Project35FormAndEvents() {
 
  const [backColour, setBackColour] = useState('Aquamarine')
 
@@ -46,4 +46,4 @@ onClick={() => {updateColour2('Chartreuse');
   )
 }
 
-export default Project35_FormAndEvents
+export default Project35FormAndEvents

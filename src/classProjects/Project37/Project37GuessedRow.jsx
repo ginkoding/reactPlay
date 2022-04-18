@@ -3,7 +3,7 @@ import nextId from 'react-id-generator';
 
 
 
-function Project37_GuessedRow(props) {
+function Project37GuessedRow(props) {
 
     const tempText = []
 
@@ -36,4 +36,4 @@ function Project37_GuessedRow(props) {
   )
 }
 
-export default Project37_GuessedRow
+export default Project37GuessedRow

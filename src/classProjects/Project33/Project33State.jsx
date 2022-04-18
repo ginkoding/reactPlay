@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 import NavBarCP from '../NavBarCP';
 
-function Project33_State() {
+function Project33State() {
 
     const [colourState, setColourState] = useState('deeppink');
 
@@ -36,4 +36,4 @@ function Project33_State() {
     
     }
 
-export default Project33_State
+export default Project33State

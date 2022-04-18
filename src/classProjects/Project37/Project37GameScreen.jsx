@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import nextId from 'react-id-generator';
 
-import Project37_GuessedRow from './Project37_GuessedRow';
+import Project37GuessedRow from './Project37GuessedRow';
 
 import { InputText } from 'primereact/inputtext';
 import { Button } from 'primereact/button';
 
 
-function Project37_GameScreen(props) {
+function Project37GameScreen(props) {
     //inputted word---------------------------------------------------
 const [guessWordle, setGuessWordle] = useState('')
 
@@ -84,6 +84,7 @@ const updateGuesses = () => {
         {
             guessHistory.length ?
             guessHistory.map((gh) => (
+                // eslint-disable-next-line 
             <Project37_GuessedRow guessedWordle={gh} key={nextId()}/> 
             ))
             :
@@ -97,4 +98,4 @@ const updateGuesses = () => {
   )
 }
 
-export default Project37_GameScreen
+export default Project37GameScreen

@@ -9,18 +9,16 @@ import "primeicons/primeicons.css";
 import './index.css';
 
 import App from './App';
-import Temp_CM from './classMaterial/Temp_CM';
-import Temp_CP from './classProjects/Temp_CP';
-import Temp_HW from './homeWork/Temp_HW';
-import Project31_Form from './classProjects/Project31/Project31_Form';
+import TempCM from './classMaterial/TempCM';
+import TempCP from './classProjects/TempCP';
+import Project31Form from './classProjects/Project31/Project31Form';
 import ParentComp from './classProjects/Project32/ParentComp';
-import Project33_State from './classProjects/Project33/Project33_State';
-import Project34_useEffect from './classProjects/Project34/Project34_useEffect';
-import Project34_useEffectAPI from './classProjects/Project34/Project34_useEffectAPI';
-import Project35_FormAndEvents from './classProjects/Project35/Project35_FormAndEvents';
-import Project35_JustForms from './classProjects/Project35/Project35_JustForms';
-import Project36_ToDoApp from './classProjects/Project36/Project36_ToDoApp';
-import Project37_Wordle from './classProjects/Project37/Project37_Wordle';
+import Project33State from './classProjects/Project33/Project33State';
+import Project34UseEffect from './classProjects/Project34/Project34UseEffect';
+import Project35FormAndEvents from './classProjects/Project35/Project35FormAndEvents';
+import Project35JustForms from './classProjects/Project35/Project35JustForms';
+import Project36ToDoApp from './classProjects/Project36/Project36ToDoApp';
+import Project37Wordle from './classProjects/Project37/Project37Wordle';
 
 
 
@@ -31,19 +29,17 @@ ReactDOM.render(
     <BrowserRouter>
     <Routes>
 
-      <Route path ="/" element={<App />} />
-      <Route path ="/classMaterial/tempCM" element={<Temp_CM />} />
-      <Route path ="/classProjects/Temp_CP" element={<Temp_CP />} />
-      <Route path ="/classProjects/Project31/Project31_Form" element={<Project31_Form />} />
+      <Route path ="/classMaterial/TempCM" element={<TempCM />} />
+      <Route path ="/classProjects/TempCP" element={<TempCP />} />
+      <Route path ="/classProjects/Project31/Project31Form" element={<Project31Form />} />
       <Route path ="/classProjects/Project32/ParentComp" element={<ParentComp />} />
-      <Route path ="/classProjects/Project33/Project33_State" element={<Project33_State />} />
-      <Route path ="/classProjects/Project34/Project34_useEffect" element={<Project34_useEffect />} />
-      <Route path ="/classProjects/Project34/Project34_useEffectAPI" element={<Project34_useEffectAPI />} />
-      <Route path ="/classProjects/Project35/Project35_FormAndEvents" element={<Project35_FormAndEvents />} />
-      <Route path ="/classProjects/Project35/Project35_JustForms" element={<Project35_JustForms />} /> 
-      <Route path ="/classProjects/Project36/Project36_ToDoApp" element={<Project36_ToDoApp />} /> 
-      <Route path ="/classProjects/Project37/Project37_Wordle" element={<Project37_Wordle />} /> 
-      <Route path ="/homeWork/tempHW" element={<Temp_HW />} />
+      <Route path ="/classProjects/Project33/Project33State" element={<Project33State />} />
+      <Route path ="/classProjects/Project34/Project34UseEffect" element={<Project34UseEffect />} />
+      <Route path ="/classProjects/Project35/Project35FormAndEvents" element={<Project35FormAndEvents />} />
+      <Route path ="/classProjects/Project35/Project35JustForms" element={<Project35JustForms />} /> 
+      <Route path ="/classProjects/Project36/Project36ToDoApp" element={<Project36ToDoApp />} /> 
+      <Route path ="/classProjects/Project37/Project37Wordle" element={<Project37Wordle />} /> 
+      <Route path ="/App" element={<App />} />
 
     </Routes>
     </BrowserRouter>

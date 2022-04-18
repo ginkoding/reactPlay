@@ -2,7 +2,7 @@
 import React, { useEffect, useState} from 'react';
 import NavBarCP from '../NavBarCP';
 
-function Project34_useEffect() {
+function Project34UseEffect() {
 const [button, setButton] = useState(true);
 
 
@@ -38,4 +38,4 @@ const changeButton = () => {
   )
 }
 
-export default Project34_useEffect
+export default Project34UseEffect

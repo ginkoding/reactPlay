@@ -14,7 +14,7 @@ function App() {
 <li>
   <NavLink
     className={({ isActive }) => (isActive ? 'activeLink' : '')}
-    to="/classMaterial/tempCM"
+    to="/classMaterial/TempCM"
   >
     Introduction
   </NavLink>
@@ -22,17 +22,9 @@ function App() {
 <li>
   <NavLink
     className={({ isActive }) => (isActive ? 'activeLink' : '')}
-    to="/classProjects/Temp_CP"
+    to="/classProjects/TempCP"
   >
     Class Projects
-  </NavLink>
-</li>
-<li>
-  <NavLink
-    className={({ isActive }) => (isActive ? 'activeLink' : '')}
-    to="/homeWork/tempHW"
-  >
-    Homework
   </NavLink>
 </li>
 </ul>

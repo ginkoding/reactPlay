@@ -155,9 +155,5 @@ body {
   background: linear-gradient(to bottom, PaleGreen, Thistle);
 }
 
-.HWNav {
-  background: Pink;
-  background: -webkit-linear-gradient(to bottom, Plum PowderBlue);
-  background: linear-gradient(to bottom, Plum, PowderBlue);
-}
+
 /* ================================== */

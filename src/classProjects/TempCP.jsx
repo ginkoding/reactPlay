@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBarCP from './NavBarCP';
 
-function Temp_CP() {
+function TempCP() {
   return (
   <div className="app-container">
   <NavBarCP />
@@ -21,4 +21,4 @@ function Temp_CP() {
   
 }
 
-export default Temp_CP
+export default TempCP
